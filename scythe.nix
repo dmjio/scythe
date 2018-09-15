@@ -1,11 +1,11 @@
-{ mkDerivation, alex, array, base, bytestring, mtl, stdenv }:
+{ mkDerivation, alex, array, base, bytestring, mtl, stdenv, text }:
 mkDerivation {
   pname = "scythe";
   version = "0.1.0.0";
   src = ./.;
   isLibrary = true;
   isExecutable = true;
-  libraryHaskellDepends = [ array base bytestring mtl ];
+  libraryHaskellDepends = [ array base bytestring mtl text ];
   libraryToolDepends = [ alex ];
   executableHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/dmjio/scythe";
