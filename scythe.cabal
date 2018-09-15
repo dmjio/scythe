@@ -19,7 +19,7 @@ library
     Data.CSV.Lexer
     Data.CSV.LexerUtils
   build-depends:
-    array, base, bytestring, mtl, text
+    array, base, bytestring, mtl
   build-tools:
     alex
   hs-source-dirs:
