@@ -19,7 +19,7 @@ library
     Data.CSV.Lexer
     Data.CSV.LexerUtils
   build-depends:
-    array, base, bytestring, mtl, text
+    array, base < 5, bytestring, mtl, text
   build-tools:
     alex
   hs-source-dirs:
@@ -31,7 +31,7 @@ executable scythe
   main-is:
     Main.hs
   build-depends:
-    base, bytestring, scythe
+    base < 5, bytestring, scythe
   hs-source-dirs:
     exe
   ghc-options:
