@@ -59,5 +59,3 @@ stateToInt InNormal{} = 0
 stateToInt InString{} = string
 
 }
-
-

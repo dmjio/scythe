@@ -1,5 +1,5 @@
 name:                scythe
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            Fast CSV lexing on ByteString
 description:         RFC-4180 compliant CSV lexing on ByteString
 homepage:            https://github.com/dmjio/scythe
